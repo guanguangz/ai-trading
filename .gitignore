@@ -1,0 +1,6 @@
+# Chart produced by backtest.py (re-created every run)
+backtest.png
+
+# Python clutter
+__pycache__/
+.venv/
