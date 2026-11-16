@@ -36,6 +36,18 @@ This prints a results table and saves a chart to `backtest.png`:
 The settings are at the top of `backtest.py`: the ticker, start date, the two
 average lengths, and the starting cash. Edit them and run it again.
 
+## Trying your own idea
+
+`my_strategy.py` is a starter file for your own trading rule. Edit the
+`my_rule` function, then run:
+
+```bash
+python my_strategy.py
+```
+
+It prints how your rule did compared with buy and hold. The example rule in
+the file owns SPY while the price is above its 200-day average.
+
 ## What the backtest leaves out
 
 - Trading fees, taxes, and interest earned on cash are ignored.
